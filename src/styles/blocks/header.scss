@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #fff;
+  background: $white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  padding: 0 50px;
+  padding: 0 $text-50-size;
 
   &__logo {
     display: block;
-    width: 40px;
-    height: 40px;
+    width: $text-40-size;
+    height: $text-40-size;
 
     &-img {
       width: 100%;
