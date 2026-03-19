@@ -51,7 +51,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 16px;
+    margin-top: $main-size;
 
     &-quantity {
       font-size: 10px;
@@ -106,7 +106,7 @@
 
     &:hover {
       background-color: transparent;
-      color: $main-color;
+      color: $main-color 300ms;
       border: 1px solid $main-color;
     }
   }
