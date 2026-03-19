@@ -36,6 +36,7 @@
     width: 160px;
     height: 134px;
     margin-top: 32px;
+    transition: 300ms;
   }
 
   &__code {
@@ -44,11 +45,13 @@
     text-align: left;
     color: $second-text-color;
     margin-top: 4px;
+    transition: 300ms;
   }
 
   &__description {
     align-self: flex-start;
     margin: 0 16px;
+    transition: 300ms;
   }
 
   &__title {
@@ -57,6 +60,7 @@
     font-weight: 500;
     line-height: 18px;
     text-align: left;
+    transition: 300ms;
   }
 
   &__review {
@@ -65,6 +69,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: $main-size;
+    transition: 300ms;
 
     &-quantity {
       font-size: 10px;
@@ -80,11 +85,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    transition: 300ms;
 
     &-text {
       line-height: 18px;
       font-size: 12px;
       color: $second-text-color;
+      transition: 300ms;
     }
 
     &-value {
@@ -92,6 +99,7 @@
       line-height: 18px;
       font-weight: 700;
       color: $main-text-color;
+      transition: 300ms;
     }
   }
 

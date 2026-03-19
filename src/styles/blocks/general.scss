@@ -12,6 +12,7 @@ body {
 p,
 h2 {
   margin: 0;
+  transition: 300ms;
 }
 
 a.is-active::after {
@@ -23,9 +24,11 @@ a.is-active::after {
   height: 4px;
   border-radius: 2px;
   background-color: $main-color;
+  transition: 300ms;
 }
 
 a.is-active,
 a.is-active:hover {
+  transition: 300ms;
   color: $main-color;
 }
